@@ -349,29 +349,6 @@ def weighted_img(img, initial_img, alpha=0.8, beta=1., gamma=0.):
     return cv2.addWeighted(initial_img, alpha, img, beta, gamma)
 ```
 
-## Test on Images
-
-Now you should build your pipeline to work on the images in the directory "test_images"  
-**You should make sure your pipeline works well on these images before you try the videos.**
-
-
-```python
-import os
-os.listdir("test_images/")
-```
-
-
-
-
-    ['whiteCarLaneSwitch.jpg',
-     'solidYellowCurve.jpg',
-     'solidYellowCurve2.jpg',
-     'solidWhiteCurve.jpg',
-     'solidWhiteRight.jpg',
-     'solidYellowLeft.jpg']
-
-
-
 ## Test on Videos
 
 You know what's cooler than drawing lanes over images? Drawing lanes over video!
@@ -453,29 +430,6 @@ white_clip = clip1.fl_image(process_image) #NOTE: this function expects color im
     CPU times: user 2.08 s, sys: 160 ms, total: 2.24 s
     Wall time: 4.91 s
 
-
-Play the video inline, or if you prefer find the video in your filesystem (should be in the same directory) and play it in your video player of choice.
-
-
-```python
-HTML("""
-<video width="560" height="420" controls>
-  <source src="{0}">
-</video>
-""".format(white_output))
-```
-
-
-
-
-
-<video width="560" height="420" controls>
-  <source src="white.mp4">
-</video>
-
-
-
-
 **At this point, if you were successful you probably have the Hough line segments drawn onto the road, but what about identifying the full extent of the lane and marking it clearly as in the example video (P1_example.mp4)?  Think about defining a line to run the full length of the visible lane based on the line segments you identified with the Hough Transform.  Modify your draw_lines function accordingly and try re-running your pipeline.**
 
 Now for the one with the solid yellow lane on the left. This one's more tricky!
@@ -548,12 +502,7 @@ yellow_clip = clip2.fl_image(process_image1)
 
 
 
-```python
-HTML("""
-<video width="460" height="440" controls>
-  <source src="{0}">
-</video>
-""".format(yellow_output))
+```
 ```
 
 
