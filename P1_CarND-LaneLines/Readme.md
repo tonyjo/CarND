@@ -518,16 +518,4 @@ yellow_clip = clip2.fl_image(process_image1)
 
 ## Reflections
 
-Congratulations on finding the lane lines!  As the final step in this project, we would like you to share your thoughts on your lane finding pipeline... specifically, how could you imagine making your algorithm better / more robust?  Where will your current algorithm be likely to fail?
-
-Please add your thoughts below,  and if you're up for making your pipeline more robust, be sure to scroll down and check out the optional challenge video below!
-
-
-## Submission
-
-If you're satisfied with your video outputs it's time to submit!  Submit this ipython notebook for review.
-
-
-### My Reflections:
-
 #### This project gave me a great insight into the applications of different computer vision techniques for lane detection. My implementation would fail in the presence of shadows, and more curved roads as shown in the challenge question down below. Also this implementation requires the vertices to  be changed constantly, which means there must be a more robust method to automatically adjust the field-of-view. By employing more modern computer vision techniques that we are going to learn as the course progresses will help us improve, and make the lane detection system more robust. My optional challenge does not work.
