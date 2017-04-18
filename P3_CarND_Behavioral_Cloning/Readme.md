@@ -107,10 +107,6 @@ Layer Output =  1
 #### Output
 1 outputs
 
-
-![alt text](examples/cnn.png)
-Source: End to End Learning for Self-Driving Cars (NVIDIA Corporation)
-
 ### Training Strategy
 
 ##### Creation of the Training Set
