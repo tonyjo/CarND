@@ -1,5 +1,5 @@
-# Extended Kalman Filter Project Starter Code
-Self-Driving Car Engineer Nanodegree Program
+# Extended Kalman Filter 
+![alt tag](images/kalman-tracker.png)
 
 ---
 
@@ -25,3 +25,12 @@ Self-Driving Car Engineer Nanodegree Program
 4. Run it: `./ExtendedKF path/to/input.txt path/to/output.txt`. You can find
    some sample inputs in 'data/'.
     - eg. `./ExtendedKF ../data/sample-laser-radar-measurement-data-1.txt output.txt`
+
+### Output for dataset 1:
+![alt tag](output1.png)
+
+###  Output for dataset 2:
+
+This dataset was a bit tricky because the starting lidar measurements for x, y are both zero, and this special case can create problems for both the EKF and UKF lidar update states, in particular for the EKF when calculating the Jacobian. Therefore, the code checks  if thepx and py values are both zeros. If that is the case then, it skips the update step.
+
+![alt tag](output2.png)
