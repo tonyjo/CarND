@@ -1177,7 +1177,7 @@ Mean was set to 0 <br>
 Sigma was set to 0.1
 
 #### Epochs:
-It took around, 5175 steps to finish training. This was after the batch size was set to 30, and validation accuracy was computed around every 6000 set.
+Trained just for 1 epoch. It took around, 5175 steps to finish training. This was after the batch size was set to 30, and validation accuracy was computed around every 6000 set.
 
 ### Question 5
 
