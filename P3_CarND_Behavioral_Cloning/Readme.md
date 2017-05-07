@@ -3,21 +3,21 @@
 
 **Behavrioal Cloning Project**
 
-** The goals / steps of this project are the following: **
+**The goals / steps of this project are the following:**
 * Use the simulator to collect data of good driving behavior
 * Build, a convolution neural network in Keras that predicts steering angles from images
 * Train and validate the model with a training and validation set
 * Test that the model successfully drives around track one without leaving the road
 * Summarize the results with a written report
 
-** My project includes the following files: **
+**My project includes the following files:**
 * model.py containing the script to create and train the model
 * model.ipynb containing the jupyter notebook version of model.py to create and train the model.
 * drive.py for driving the car in autonomous mode
 * model.h5 containing a trained convolution neural network 
 * writeup_report.ipynb and writeup_report.pdf summarizing the results
 
-** Testing **
+**Testing**
 
 * Using the Udacity provided simulator and my drive.py file, the car can be driven autonomously around the track by executing:
 ```sh
@@ -111,14 +111,14 @@ Layer Output =  1
 
 ##### Creation of the Training Set
 
-** 1. Initially, I just used the sample training data provided. **
+**1. Initially, I just used the sample training data provided.**
 * First, I just used the image data from center camera, and was met with very limited success. The car would barely, move before crashing onto the side. 
     
 * Then, I included the image data from both left and right cameras. I included a correction factor to the steering data, when left and right image data was used. This correction factor had to be fine-tuned. The best result I got was with a correction factor of 0.05.
     
 * I was able to make the car go past the first curve, but It ended up crashing in the next one. I tried a lot of tuning the network parameters, but was still met with limited success.
 
-** 2. Then I collected my own dataset. **
+**2. Then I collected my own dataset.**
 * It took sometime to collect the dataset, since I had to get used to controlling the car in the simulator.
     
 * Initially, I only collected the data driving only on the center of the road as much as possible. (3-Laps)
@@ -131,7 +131,7 @@ Layer Output =  1
 
 * The trained weights have been included in set-1. I have included the output in video 2.
 
-** 3. Lastly, I combined my collected dataset and the sample provided dataset.** 
+**3. Lastly, I combined my collected dataset and the sample provided dataset** 
 
 * This was done in order to see, if the driving could be made more efficient.
 
