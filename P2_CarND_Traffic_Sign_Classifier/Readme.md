@@ -1189,8 +1189,6 @@ Maybe if I can have to develop much deeper networks and use better regularizers,
 
 Take several pictures of traffic signs that you find on the web or around you (at least five), and run them through your classifier on your computer to produce example results. The classifier might not recognize some local signs but it could prove interesting nonetheless.
 
-You may find `signnames.csv` useful as it contains mappings from the class id (integer) to the actual sign name.
-
 ### Implementation
 
 Use the code cell (or multiple code cells, if necessary) to implement the first step of your project. Once you have completed your implementation and are satisfied with the results, be sure to thoroughly answer the questions that follow.
@@ -1328,9 +1326,6 @@ with tf.Session() as sess:
 
 _Is your model able to perform equally well on captured pictures when compared to testing on the dataset? The simplest way to do this check the accuracy of the predictions. For example, if the model predicted 1 out of 5 signs correctly, it's 20% accurate._
 
-_**NOTE:** You could check the accuracy manually by using `signnames.csv` (same directory). This file has a mapping from the class id (0-42) to the corresponding sign name. So, you could take the class id the model outputs, lookup the name in `signnames.csv` and see if it matches the sign from the image._
-
-
 **Answer:**
 
 My model was able to achieve 90.2% on the test dataset provided, but it was able to get three labels correctly out of six on the captured pictures. This makes it only having an accuracy of 50% in the new collected dataset.<br>
@@ -1449,7 +1444,3 @@ for i in range(6):
     For Test Image, 4 the label does not appear in top-3
     For Test Image, 5 the label does appear in top-3
     For Test Image, 6 the label does not appear in top-3
-
-
-> **Note**: Once you have completed all of the code implementations and successfully answered each question above, you may finalize your work by exporting the iPython Notebook as an HTML document. You can do this by using the menu above and navigating to  \n",
-    "**File -> Download as -> HTML (.html)**. Include the finished document along with this notebook as your submission.
