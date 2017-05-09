@@ -472,18 +472,6 @@ norm_grey_val_dataset = normalize_data(grey_val)
 norm_more_random_augmented_dataset = normalize_data(more_random_augmented_dataset)
 norm_grey_more_random_augmented_dataset = normalize_data(grey_more_random_augmented_dataset)
 
-#print('Orginal Train Data  : ', norm_train_dataset.shape)
-#print('Orginal Train Labels: ', y_train_labels.shape)
-
-#print('Randomized Generated Train Data  : ', norm_random_augmented_dataset.shape)
-#print('Randomized Generated Train Labels: ', y_random_augmented_labels.shape)
-
-#print('Grey Randomized Generated Train Data  : ',norm_grey_random_augmented_dataset.shape)
-#print('Grey Randomized Generated Train Labels: ', y_random_augmented_labels.shape)
-
-#print("Number of validation dataset =", norm_val_dataset.shape)
-#print("Number of validation label   =", y_val_labels.shape)
-
 print('More Randomized Generated Train Data  : ', norm_more_random_augmented_dataset.shape)
 print('More Randomized Generated Train Labels: ', y_more_random_augmented_labels.shape)
 
