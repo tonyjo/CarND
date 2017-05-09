@@ -462,13 +462,8 @@ y_val_labels = one_hot(val_labels, n_classes)
 y_more_random_augmented_labels = one_hot(more_random_augmented_labels, n_classes)
 
 # Normalize dataset
-#norm_X_test = normalize_data(X_test)
 norm_grey_test = normalize_data(grey_test)
-#norm_val_dataset   = normalize_data(val_dataset)
-#norm_train_dataset = normalize_data(train_dataset)
 norm_grey_val_dataset = normalize_data(grey_val)
-#norm_random_augmented_dataset = normalize_data(random_augmented_dataset)
-#norm_grey_random_augmented_dataset = normalize_data(grey_random_augmented_dataset)
 norm_more_random_augmented_dataset = normalize_data(more_random_augmented_dataset)
 norm_grey_more_random_augmented_dataset = normalize_data(grey_more_random_augmented_dataset)
 
