@@ -101,16 +101,16 @@ The model is exactly the same as the proposed NVIDIA model, but I added a dropou
 
 #### Training Process
 
-** Type of optimizer: **
+**Type of optimizer:**
 Adaptive Moment Estimation (Adam) Optimizer was to used to optimize the model. The learning rate was set to 0.0001.
 
-** Cost Function: **
+**Cost Function:**
 Mean Squared Error.
 
-** Batch size: **
+**Batch size:**
 I used the batch size of 128.
 
-** Epochs: **
+**Epochs:**
 The model was trained for 5 epochs. I found that around 4 or 5 epochs, the validation loss was staying almost constant. Hence, I selected the model to train for 5 epochs.
 
 ![alt tag](writeup_images/7.png)
@@ -153,7 +153,7 @@ As shown in the Figure 7, the model was able to identify the black car unlike th
 
 ## Pipeline
 
-** This work is shown in pipeline.html**
+**This work is shown in pipeline.html**
 
 1. Get each frame in the video.
 2. For each frame windows of three different sizes are generated using ``` sliding window ``` function. When calling the function, ``` y_start_stop ``` parameter was set to different y values. This was done in order to prevent the window aimlessly searching through the entire image at different scales increasing computational cost. An example would be that smaller window sizes are for futher away vehicles, hence the need to restrict the search space.
