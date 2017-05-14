@@ -3,9 +3,9 @@
 
 ![alt tag](writeup_images/2.jpg)
 
-** In this project, the goal is to write a software pipeline to detect vehicles in a video.**
+**In this project, the goal is to write a software pipeline to detect vehicles in a video.**
 
-** The goal of this project is as follows:**
+**The goal of this project is as follows:**
 1. Train a classifer to predict if a car is present or not.
 2. Implement a sliding-window technique and use your trained classifier to search for vehicles in images.
 3. Run your pipeline on a video stream (start with the test_video.mp4 and later implement on full project_video.mp4) and create a heat map of recurring detections frame by frame to reject outliers and follow detected vehicles.
