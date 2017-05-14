@@ -540,16 +540,16 @@ _Describe how you set up the training, validation and testing data for your mode
 5. Finally converted all the labels (train, val, etc.) into one-hot encodings.
 
 #### Validation Data: 
-Number of validation dataset = (1961, 32, 32, 1) <br />
+Number of validation dataset = (1961, 32, 32, 1) <br>
 Number of validation label   = (1,961, 43)
 
 #### Generated training data:
-Randomized Augmented Train Data  :  (155264, 32, 32, 1) <br />
+Randomized Augmented Train Data  :  (155264, 32, 32, 1) <br>
 Randomized Augmented Train Labels:  (155264, 43)
 
 #### Testing Data:
-The testing data was already given to us. <br />
-Testing dataset: (12630, 32, 32, 1)<br />
+The testing data was already given to us. <br>
+Testing dataset: (12630, 32, 32, 1)<br>
 Testing labels : (12630, 43)
 
 
@@ -1038,10 +1038,6 @@ with tf.Session() as sess:
         batch_x =  norm_grey_more_random_augmented_dataset[offset:end]
         batch_y =  y_more_random_augmented_labels[offset:end]
         
-        #batch_x = norm_random_augmented_dataset[offset:end]
-        #batch_y = y_random_augmented_labels[offset:end]
-        
-        #sess.run(optimizer, feed_dict={tf_train_dataset: batch_x, tf_train_labels: batch_y, is_training:True})
         sess.run(optimizer, feed_dict={tf_train_dataset: batch_x, tf_train_labels: batch_y, keep_prob: 0.75})
 
         if(offset%6000) == 0:
