@@ -88,16 +88,16 @@ ReLU activation.
 Layer Operation = 1x100 x 100x50 <br>
 Layer Output =  1x50
 
-**Activation.** <br>
+**Activation** <br>
 ReLU activation.
 
-**Layer 4: Dropout Layer ** <br>
+**Layer 4: Dropout Layer** <br>
 
-**Layer 5: Fully Connected.** <br>
+**Layer 5: Fully Connected** <br>
 Layer Operation = 1x50 x 50x10 <br>
 Layer Output =  1x10
 
-**Activation.** <br>
+**Activation** <br>
 ReLU activation.
 
 **Layer 6: Fully Connected.** <br>
