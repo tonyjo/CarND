@@ -972,10 +972,7 @@ keep_prob = tf.placeholder(tf.float32)
 ```python
 # Training computation.
 
-#logits = alexnet(tf_train_dataset, keep_prob, phase_train)
-#logits = alexnet(tf_train_dataset, is_training)
 logits = alexnet(tf_train_dataset, keep_prob)
-#logits = LeNet(tf_train_dataset)
 
 # Loss function
 loss   = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits, tf_train_labels))
@@ -1008,7 +1005,6 @@ def evaluate(X_data, y_data):
         batch_x = X_data[offset:offset+BATCH_SIZE]
         batch_y = y_data[offset:offset+BATCH_SIZE]
         
-        #accuracy = sess.run(accuracy_operation, feed_dict={tf_train_dataset: batch_x, tf_train_labels: batch_y, is_training: False})
         accuracy = sess.run(accuracy_operation, feed_dict={tf_train_dataset: batch_x, tf_train_labels: batch_y, keep_prob: 1.0})
 
         total_accuracy += (accuracy * len(batch_x))
@@ -1024,9 +1020,7 @@ with tf.Session() as sess:
     
     # Intialize all variables
     sess.run(tf.global_variables_initializer())
-    #num_examples = len(norm_random_augmented_dataset)
-    #num_examples = len(train_dataset)
-    
+
     num_examples = len(norm_grey_more_random_augmented_dataset)
     
     print("Training...")
