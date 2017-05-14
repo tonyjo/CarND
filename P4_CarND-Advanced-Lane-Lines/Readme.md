@@ -1,7 +1,7 @@
 
 ## Advanced Lane Finding Project
 
-** The goals / steps of this project are the following:**
+**The goals / steps of this project are the following:**
 
 * Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
 * Apply a distortion correction to raw images.
@@ -16,7 +16,7 @@
 
 ## Camera Calibration
 
-** This section contains the code on obtaning the camera matrix and distortion coefficients**
+**This section contains the code on obtaning the camera matrix and distortion coefficients**
 1. Prepared object points which is the real world 3-D coordinates.
 2. When image points are successfully detected, both image points and object points are appended to the objpoints and imgpoints.
 3. Then the camera callibration parameters: ```mtx, dist``` are found using ```  cv2.calibrateCamera(objpoints, imgpoints, img_size,None,None)```.
