@@ -1,5 +1,5 @@
 # Particle Filter
-![alt tag](images/title.png)
+![alt tag](title.png)
 
 ## Dependencies
 
@@ -54,6 +54,6 @@ root
 ```
 
 ### Output:
-![alt tag](images/output.png)
+![alt tag](output.png)
 
 
