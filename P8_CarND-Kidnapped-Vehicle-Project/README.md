@@ -54,6 +54,6 @@ root
 ```
 
 ### Output:
-![alt tag](output.png)
+![alt tag](ouput.png)
 
 
