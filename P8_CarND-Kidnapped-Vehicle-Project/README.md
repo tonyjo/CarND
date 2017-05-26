@@ -43,7 +43,7 @@ root
 |   |___observation
 |       |   observations_000001.txt
 |       |   ... 
-|       |   observations_002444.txt
+|       |   observations_0nnnnn.txt
 |   
 |___src
     |   helper_functions.h
