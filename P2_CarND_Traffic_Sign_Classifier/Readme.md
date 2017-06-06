@@ -937,7 +937,7 @@ Layer Output = 1x512
 **Activation.** <br>
 ReLU activation.
 
-** Dropout Layer ** <br>
+**Dropout Layer** <br>
 Added a dropout layer during training to prevent over-fitting.
 
 **Layer 4: Fully Connected (Logits).** <br>
