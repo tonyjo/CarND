@@ -256,17 +256,6 @@ def draw_lines1(line_image, lines, color=[255, 0, 0], thickness=2):
 
 
     '''
-    print prev_x2_l
-    print prev_y2_l
-    print prev_x2_l1
-    print prev_y2_l1
-    print prev_x2_r
-    print prev_y2_r
-    print prev_x2_r1
-    print prev_y2_r1
-    '''
-
-    '''
     Extrapolating between the points in 
     '''
 
