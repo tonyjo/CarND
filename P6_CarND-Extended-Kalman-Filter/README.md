@@ -1,7 +1,7 @@
 # Extended Kalman Filter 
 ![alt tag](images/kalman-tracker.png)
 
----
+------
 
 ## Dependencies
 
