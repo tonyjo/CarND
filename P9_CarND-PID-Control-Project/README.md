@@ -34,11 +34,11 @@
 4. Run it: `./pid`. 
 
 ## Output
-![alt tag](output_image.png)
+![alt tag](ouput_image.png)
 
 ## Reflection
 
-###Effect of the P, I, D component of the PID algorithm
+### Effect of the P, I, D component of the PID algorithm
 1. Proportional term P, accounts for the present values. If only P is used then the car will try to maintain its path but oscillates. The oscillations depends on the control parameter Kp. If Kp is large, the frequency of oscillations increased. As the term was brought down to a lower value, we got much stable drive at least on straight roads.
 
 
