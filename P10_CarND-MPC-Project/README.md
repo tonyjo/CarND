@@ -38,17 +38,16 @@
   * Linux `sudo apt-get install cppad` or equivalent.
   * Windows: TODO. If you can use the Linux subsystem and follow the Linux instructions.
   
-* [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page).
-
 * Simulator. You can download these from the [releases tab](https://github.com/udacity/self-driving-car-sim/releases).
+
 * Not a dependency but read the [DATA.md](./DATA.md) for a description of the data sent back from the simulator.
 
-
+[Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page).
 ## Basic Build Instructions
 
 
 1. Clone this repo.
-2. Get the Eigen c++ library and put it in src folder. The folder must be called "Eigen".
+2. Get the [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) c++ library and put it in src folder. The folder must be called "Eigen-3.3".
 3. Make a build directory: `mkdir build && cd build`
 4. Compile: `cmake .. && make`
 5. Run it: `./mpc`.
