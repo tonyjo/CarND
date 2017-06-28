@@ -42,7 +42,6 @@
 
 * Not a dependency but read the [DATA.md](./DATA.md) for a description of the data sent back from the simulator.
 
-[Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page).
 ## Basic Build Instructions
 
 
