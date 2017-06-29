@@ -1,4 +1,3 @@
 # Self-Driving Car Engineer
-![alt text](Images/title.jpg | height=100)
-
+<img src="https://github.com/CVDLBOT/CarND/blob/master/Images/title.jpg" height="24" width="48">
 ## Nanodegree program projects
