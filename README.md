@@ -6,3 +6,10 @@
 1. Lane Lines
 2. Traffic Sign Classifier
 3. Behavioral Cloning
+4. Advanced Lane Lines
+5. Vehicle Detection and Tracking
+6. Extended Kalman Filter
+7. Unscented Kalman Filter
+8. Kidnapped Vehicle
+9. PID control
+10. Model Predictive Control
