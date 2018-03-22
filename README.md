@@ -13,3 +13,5 @@
 8. Kidnapped Vehicle
 9. PID control
 10. Model Predictive Control
+11. Path Planning
+12. Semantic Road Segmentation
