@@ -25,11 +25,3 @@
    some sample inputs in 'data/'.
     - eg. `./UnscentedKF ../data/sample-laser-radar-measurement-data-1.txt output.txt`
 
-### Output for dataset 1:
-![alt tag](images/output1.png)
-
-###  Output for dataset 2:
-![alt tag](images/output2.png)
-
-###  Output for dataset 3:
-![alt tag](images/output3.png)
