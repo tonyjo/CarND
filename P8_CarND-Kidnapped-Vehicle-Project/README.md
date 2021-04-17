@@ -53,7 +53,3 @@ root
     |   particle_filter.h
 ```
 
-### Output:
-![alt tag](ouput.png)
-
-
